@@ -24,7 +24,6 @@
     gap: 8px;
 }
 
-
 .cabecalho__titulo{
     font-family: "inter", sans-serif;
     font-size: 18px;
@@ -94,6 +93,42 @@
     font-weight: 400;
     color: var(--cinza-secundario);
     text-align: center;
+    margin-bottom: 107px;
 
 
+}
+.metrica__item{
+
+}
+
+.metricas__contaier{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 7em 6em 7em;
+
+}
+
+.metrica__titulo{
+    margin-bottom: 12px;
+    font-family: "inter", sans-serif;
+    color: var(--vermelho-principal);
+    font-size: 60px;
+    font-weight: 600;
+}
+.metrica__titulo__texto{
+    margin-bottom: 8px;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+
+
+}
+
+.metrica__paragrafo{
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    color: var(--cinza-secundario); 
+    padding: 0 3em 0 0;
 }
