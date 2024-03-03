@@ -6,6 +6,7 @@
     --cinza-principal: #3A404E;
     --cinza-secundario: #667085;
     --branco-fundo: #ffffff;
+    --preto-principal: #000000;
 }
 
 *{
@@ -22,7 +23,6 @@
     display: flex;
     gap: 8px;
 }
-
 
 .cabecalho__titulo{
     font-family: "inter", sans-serif;
@@ -56,4 +56,180 @@
     background-color: var(--vermelho-principal);
     padding: 10px 18px;
     border-radius: 8px;    
+}
+
+.cabecalho__sobre-nos{
+    padding: 96px 324px;
+    
+
+}
+
+.cabecalho__sobre-nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.cabecalho__text__sobre-nos{
+    font-family: "inter", sans-serif;
+    color: var(--vermelho-principal);
+    font-size: 16px;
+    font-weight: 600;
+}
+.cabecalho__sobre-nos__titulo{
+    font-family: "inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--preto-principal);
+    padding-bottom: 24px;
+
+
+}
+
+.cabecalho__sobre-nos__paragrafo{
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    text-align: center;
+    margin-bottom: 107px;
+
+
+}
+.metrica__item{
+
+}
+
+.metricas__contaier{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 7em 6em 7em;
+
+}
+
+.metrica__titulo{
+    margin-bottom: 12px;
+    font-family: "inter", sans-serif;
+    color: var(--vermelho-principal);
+    font-size: 60px;
+    font-weight: 600;
+}
+.metrica__titulo__texto{
+    margin-bottom: 8px;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+
+
+}
+
+.metrica__paragrafo{
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    color: var(--cinza-secundario); 
+    padding: 0 3em 0 0;
+}
+
+.vagas__abertas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1.25em;
+
+
+}
+
+.vagas__abertas__texto{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--vermelho-principal);
+    font-family: "inter", sans-serif;
+    padding-bottom: 1.25em;
+
+}
+
+.vagas__abertas__titulo{
+    font-size: 2.3em;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    color: var(--cinza-principal);
+    padding-bottom: 20px;
+
+}
+
+.vagas__abertas__paragrafo{
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cinza-secundario);
+
+}
+
+.vagas__abertas__imagem{
+    padding: 4em 7em 0em 7em;
+}
+.vaga{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16em;
+    
+    
+}
+
+.titulo__vaga{
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto-principal);
+    padding: 4em 0 2em 0;
+
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16em;
+}
+
+.vagas__titulo{
+    font-family: "inter", sans-serif;
+    font-size: 1.25em;
+    font-weight: 500;
+    color: var(--preto-principal);
+    padding: 4em 0 3.5em 0;
+
+}
+
+.vagas__vaga__titulo{
+    font-family: "inter", sans-serif;
+    font-size: 1.12em; 
+    color: var(--preto-principal);
+    font-weight: 500;
+    padding: 0 0 2em 1.5em;
+}
+
+
+.vagas__time{
+    padding-left: 1.5em;
+}
+.vagas__faixa-salarial{
+    padding-left: 1.5em;
+}
+.vagas__time,
+.vagas__faixa-salarial{
+
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-secundario);
+
+}
+
+.vaga__espacamento{
+    padding-top: 4.75em
+
 }
